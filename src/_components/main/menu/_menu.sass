@@ -8,21 +8,37 @@
         flex-direction: column
         justify-content: center
         align-items: center
-
     .menu-nav-wrap
         margin-left: 100px
+        height: 100vh
 
-        ul
+        & ul
             display: flex
             flex-direction: column
             gap: 0.8em
             width: 180px
 
-            .menu-nav-link
-                font-size: 1.2em
-            .menu-nav-link-title
-                font-weight: 900
-                padding-top: 2em
+        .nav-menu-title
+            font-size: 1.2em
+            font-weight: 600
+            margin-bottom: 10px
+            cursor: pointer
+
+        .sub-ul
+            opacity: 0
+            max-height: 0
+            pointer-events: none
+            overflow: hidden
+            transition: max-height .5s, opacity .5s
+
+        .visible
+            max-height: 1000px
+            opacity: 1
+            pointer-events: auto
+
+        .sub-ul li
+            margin-bottom: 5px
+
     .menu-nav-wrap
         @media (max-width: 1024px)
             display: none

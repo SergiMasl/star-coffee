@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../_asses/svgs/NavLogo.svg";
+import { Link } from "react-router-dom";
 
 export default function _NavLogo({ isOpen, setIsBurgerOn, setIsOpen }) {
   const toggleMenu = () => {
@@ -10,8 +11,8 @@ export default function _NavLogo({ isOpen, setIsBurgerOn, setIsOpen }) {
   };
 
   return (
-    <a href="#" className="nav-logo" onClick={() => toggleMenu()}>
+    <Link to={"/star-coffee"} className="nav-logo" onClick={() => toggleMenu()}>
       <img src={Logo} />
-    </a>
+    </Link>
   );
 }
