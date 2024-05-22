@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/star-coffee/static/css/main.a1eed6fb.css",
-    "main.js": "/star-coffee/static/js/main.659e1624.js",
+    "main.css": "/star-coffee/static/css/main.08732aeb.css",
+    "main.js": "/star-coffee/static/js/main.91b3d58a.js",
     "static/media/exemple.jpg": "/star-coffee/static/media/exemple.90379e0a4b545f5b8813.jpg",
     "index.html": "/star-coffee/index.html",
     "static/media/Point.svg": "/star-coffee/static/media/Point.668111eb38731fe37807f29ca4a5dcb6.svg",
     "static/media/NavLogo.svg": "/star-coffee/static/media/NavLogo.28ab6bc97579a88fcd128d073f5e0939.svg",
-    "main.a1eed6fb.css.map": "/star-coffee/static/css/main.a1eed6fb.css.map",
-    "main.659e1624.js.map": "/star-coffee/static/js/main.659e1624.js.map"
+    "main.08732aeb.css.map": "/star-coffee/static/css/main.08732aeb.css.map",
+    "main.91b3d58a.js.map": "/star-coffee/static/js/main.91b3d58a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1eed6fb.css",
-    "static/js/main.659e1624.js"
+    "static/css/main.08732aeb.css",
+    "static/js/main.91b3d58a.js"
   ]
 }
