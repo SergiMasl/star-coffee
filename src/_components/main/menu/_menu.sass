@@ -1,0 +1,92 @@
+.menu-container
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: start
+    flex-direction: row
+    @media (max-width: 1024px)
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+    .menu-nav-wrap
+        margin-left: 100px
+
+        ul
+            display: flex
+            flex-direction: column
+            gap: 0.8em
+            width: 180px
+
+            .menu-nav-link
+                font-size: 1.2em
+            .menu-nav-link-title
+                font-weight: 900
+                padding-top: 2em
+    .menu-nav-wrap
+        @media (max-width: 1024px)
+            display: none
+
+    .menu-nav-wrap-sm
+        width: 90%
+        ul
+            display: flex
+            justify-content: space-between
+            align-items: center
+            flex-direction: row
+
+            li
+                padding: 1em 3em
+                &:hover
+                    background-color: #c2c2c2
+                    border-radius: 25px
+
+        @media (min-width: 1025px)
+            display: none
+
+    .menu-wrap
+        width: calc( 100% - 400px)
+        padding-top: 2em
+        display: flex
+        flex-direction: column
+        margin-right: 50px
+
+        .menu-title
+
+        .menu-grid-container
+
+            .menu-item
+                text-align: start
+            .menu-sub-title
+                display: flex
+                text-align: start
+                padding: 1em 0 1em
+                font-size: 1.5em
+                text-align: center
+                border-bottom: 1px solid grey
+
+            .menu-list-ul
+                display: grid
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+                margin-top: 1em
+                .menu-list-item
+
+                    margin-bottom: 2em
+
+                    a
+                        justify-content: start
+                        align-items: center
+                        display: flex
+                    .menu-list-item-icon
+                        margin-right: 10px
+                        width: 80px
+                        padding: 5px
+                        border: 1px solid green
+                        border-radius: 50px
+                    &:hover
+                        background-color: #e2e2e2
+                        border-radius: 10px
+
+        @media (max-width: 1024px)
+            width: calc( 80%)
+            margin-right: 0

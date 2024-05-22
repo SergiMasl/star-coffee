@@ -1,0 +1,35 @@
+[
+   
+    { "id": "Drinks", "title": "Drinks",
+    "items":[{"id":"Hot_Coffees","title":"Hot Coffees"},
+    {"id":"Cold Coffees","title":"Cold Coffees"},
+    {"id":"Starbucks_Refreshers®_Beverages","title":"Starbucks Refreshers® Beverages"},
+    {"id":"Frappuccino®_Blended Beverages","title":"Frappuccino® Blended Beverages"},
+    {"id":"Iced_Tea_and_Lemonade","title":"Iced Tea and Lemonade"},
+    {"id":"Hot_Teas","title":"Hot Teas"},
+    {"id":"Milk_Juice _More","title":"Milk, Juice & More"},
+    {"id":"Bottled_Beverages","title":"Bottled Beverages"}]},
+
+
+    { "id": "Food", "title": "Food", "items":[
+      {"id":"Hot Breakfast","title":"Hot Breakfast"},
+      {"id":"Oatmeal & Yogurt","title":"Oatmeal & Yogurt"},
+      {"id":"Bakery","title":"Bakery"},
+      {"id":"Lunch","title":"Lunch"}
+      ,{"id":"Snacks_&_Sweets","title":"Snacks & Sweets"}
+    ]},
+    { "id": "Coffee", "title": "At Home Coffee" , "items":[
+      {"id":"Whole_Bean","title":"Whole Bean"},
+      {"id":"VIA®_Instant","title":"VIA® Instant"}
+    ] },
+    { "id": "Merchandise", "title": "Merchandise", "items":[
+      {"id":"Cold_Cups","title":"Cold Cups"},
+      {"id":"Tumblers","title":"Tumblers"},
+      {"id":"Mugs","title":"Mugs"},
+      {"id":"Water Bottles","title":"Water Bottles"},
+      {"id":"Other","title":"Other"}
+    ]}
+  ]
+ 
+
+
