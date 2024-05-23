@@ -5,7 +5,6 @@ export default function _NavMenu() {
   const [openCategory, setOpenCategory] = useState(null);
 
   const toggleDropdown = (id) => {
-    console.log(id);
     setOpenCategory(id);
   };
 
