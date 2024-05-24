@@ -13,8 +13,7 @@ export default function Menu() {
       <_NavMenuSM />
       <Routes>
         <Route path="/" element={<_MenuWrapper />} />
-        {/* <Route path="/submenu:id" element={<SubMenu />} /> */}
-        <Route path="/submenu" element={<SubMenu />} />
+        <Route path="/submenu/:id" element={<SubMenu />} />
       </Routes>
     </div>
   );

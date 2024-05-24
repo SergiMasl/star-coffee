@@ -1,0 +1,14 @@
+[
+    {
+        "id":"esspresso",
+        "ingrid":[
+            {"milk":false},
+            {"shots":2},
+            {"Flavors":[{"syrops":false},{"sauces":false},{"powders":false}]},
+            {"Toppings":[{"drizzle":false}, {"whipped cream":false}, {"cinnamon":false}]},
+            {"Cold Foams":[{"cold_foam": false}]}
+        ],
+        "temp":"hot",
+        "price_default":  {"s":1.99,"m":2.50,"l":3.00}
+    }
+]

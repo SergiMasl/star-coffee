@@ -1,0 +1,14 @@
+[
+    {
+        "id":"mocca",
+        "ingrid":[
+            {"milk":"reg"},
+            {"shots":2},
+            {"Flavors":[{"syrops":false},{"sauces":"mocca"},{"powders":false}]},
+            {"Toppings":[{"drizzle":"chocolad"}, {"whipped cream":true}, {"cinnamon":false}]},
+            {"Cold Foams":[{"cold_foam": false}]}
+        ],
+        "temp":"steam",
+        "price_default":  {"s":4.99,"m":5.50,"l":6.00}
+    }
+]

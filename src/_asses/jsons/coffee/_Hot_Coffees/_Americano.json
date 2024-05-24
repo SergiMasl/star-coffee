@@ -1,0 +1,14 @@
+[
+    {
+        "id":"americano",
+        "ingrid":[
+            {"milk":"water"},
+            {"shots":4},
+            {"Flavors":[{"syrops":false},{"sauces":false},{"powders":false}]},
+            {"Toppings":[{"drizzle":false}, {"whipped cream":false}, {"cinnamon":false}]},
+            {"Cold Foams":[{"cold_foam": false}]}
+        ],
+        "temp":"hot",
+        "price_default":  {"s":2.99,"m":3.50,"l":4.00}
+    }
+]

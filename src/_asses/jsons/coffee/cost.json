@@ -1,0 +1,16 @@
+
+
+[
+    {"milk":[
+        {"whole":1.00},{"skin":1.00}
+    ]},
+    {"syrops":[
+        {"vannila":0.50},{"carmel":0.50}
+    ]},
+    {"sauces":[{"mocca":1.00},{"white_mocca":1.00}]},
+    {"powders":[{"chocolad":1.00}]},
+    {"drizzle":[{"chocolad":1.00}, {"carmel":1.00}]}, 
+    {"whipped cream":[{"reg":1.00},{"skin":1.00}]}, 
+    {"cinnamon":[{"cinnamon":0.20}]},
+    {"cold_foam": [{"reg":1.00},{"skin":1.00}]}
+]

@@ -1,1 +1,7 @@
-[{"group":"Americanos", "items": ["Americano"]}, {"group":"Esspresso", "items": ["Esspresso shot","Latte","Vanilla Latte", "Cappuccino", "Mocca Latte"]}]
+[
+    {"group":"Americanos", "items": [{"name":"Americano", "link":"americano"}]},
+    {
+        "group": "Esspresso",
+        "items": [{"name":"Esspresso shot", "link":"esspresso"},{"name": "Latte", "link":"latte"} , {"name":"Vanilla Latte", "link": "vanilalatte"},{"name": "Cappuccino", "link":"cappuccino"}, {"name": "Mocca Latte" ,"link": "mocca"}]
+        }
+]

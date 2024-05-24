@@ -16,7 +16,7 @@ export default function _MenuWrapper() {
                 <li key={item.id} className="menu-list-item">
                   {/* <Link to="/star-coffee/menu/submenu" params={{ id: item.id }}> */}
                   {/* <Link to={`/star-coffee/menu/submenu:${item.id}`}> */}
-                  <Link to="submenu">
+                  <Link to={`/star-coffee/menu/submenu/${item.id}`}>
                     <img className="menu-list-item-icon" src={LogoEx} />
                     {item.title}
                   </Link>
